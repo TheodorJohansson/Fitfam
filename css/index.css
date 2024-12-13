@@ -18,6 +18,10 @@ header h1 {
     margin: 0;
 }
 
+img {
+    width: 100%;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -34,7 +38,7 @@ nav a {
 
 footer {
     width: 100%;
-    position:absolute;
+    position:static;
     bottom: 0;
     background: #4CAF50;
     color: #fff;
@@ -48,42 +52,15 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
     padding: 2em;
-    background-image:url(Fitfam\images\premium_photo-1670505062582-fdaa83c23c9e.avif);
 }
 
-.cards-container {
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 2em;
+.landing-grid h2 {
+    text-align: center;
 }
 
-.card {
-    background: #f4f4f4;
-    border: 1px solid #ddd;
+.text {
+    background-color: #4CAF50;
+    padding: 5px 5px;
     border-radius: 5px;
-    padding: 1em;
-    width: 250px;
-    text-align: center;
-}
-
-.card img {
-    max-width: 100%;
-    border-radius: 50%;
-    
-}
-
-.grid-page {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
-    padding: 2em;
-}
-
-.service {
-    background: #f4f4f4;
-    border: 1px solid #ddd;
-    padding: 1em;
-    text-align: center;
+    color: white;
 }
